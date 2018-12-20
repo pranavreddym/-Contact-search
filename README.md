@@ -3,15 +3,15 @@ This is a RESTFUL API for an address Book with an ElasticSearch data store
 
 A RESTful API is one that exposes it's iterface over HTTP, and follows standard convetion for how dat should be retrieved.
 
-# The format of the data that should be send be application/json and should be of this format:
+The format of the data that should be send be application/json and should be of this format:
   {
   "name": <name>,
   "contact": <contact>
   }
   
   The application used AWS [ElasticSearch](https://aws.amazon.com/elasticsearch-service/) as its data store. 
-  The RESTful services is implemented by flask.
-  The unittests library used is unittest.py
+  The RESTful services is implemented by [flask](http://flask.pocoo.org/).
+  The unittests library used is [unittest.py](https://docs.python.org/3/library/unittest.html)
   
   ## API Definitons
   
