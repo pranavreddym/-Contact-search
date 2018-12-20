@@ -4,7 +4,7 @@ This is a RESTFUL API for an address Book with an ElasticSearch data store
 A RESTful API is one that exposes it's iterface over HTTP, and follows standard convetion for how dat should be retrieved.
 
 The format of the data that should be send be **application/json** and should be of this format:
-  \n{
+  {
   "name": {name},
   "contact": {contact}
   }
@@ -33,9 +33,9 @@ The format of the data that should be send be **application/json** and should be
 
 ## How to run the application:
   
-  You should have python3 installed on your machine.
+  You should have **python3** installed on your machine.
   
-  Just create an AWS Elastic search account and replace the access keys and end with your credentials.
+  Just create an **AWS Elastic search** account and replace the access keys and end with your credentials.
   
   Run the application and enjoy the commands!
   
