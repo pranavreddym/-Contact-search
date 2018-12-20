@@ -3,10 +3,10 @@ This is a RESTFUL API for an address Book with an ElasticSearch data store
 
 A RESTful API is one that exposes it's iterface over HTTP, and follows standard convetion for how dat should be retrieved.
 
-The format of the data that should be send be application/json and should be of this format:
-  {
-  "name": <name>,
-  "contact": <contact>
+The format of the data that should be send be **application/json** and should be of this format:
+  \n{
+  "name": {name},
+  "contact": {contact}
   }
   
   The application used AWS [ElasticSearch](https://aws.amazon.com/elasticsearch-service/) as its data store. 
